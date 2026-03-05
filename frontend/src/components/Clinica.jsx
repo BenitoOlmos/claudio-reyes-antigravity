@@ -6,7 +6,7 @@ const Clinica = () => {
             <div className="container">
                 <h2 className="section-title">Clínica Equilibrar</h2>
                 <p className="section-sub">
-                    Psicoterapia y salud mental con foco práctico: crisis, ansiedad, trauma, estancamiento y reconstrucción de sentido.
+                    Procesos terapéuticos orientados a comprensión profunda y cambio práctico: crisis, ansiedad, trauma, estancamiento y reconstrucción de sentido.
                 </p>
 
                 <div className="grid-3">
@@ -16,7 +16,7 @@ const Clinica = () => {
                         </div>
                         <div className="body">
                             <h3>Psicoterapia</h3>
-                            <p>Comprensión profunda + herramientas para regular el sistema nervioso y recuperar dirección.</p>
+                            <p>Espacio clínico para comprender patrones, regular el sistema nervioso y recuperar dirección.</p>
                             <a className="link" href="https://clinicaequilibrar.cl" target="_blank" rel="noreferrer">Ir a Clínica Equilibrar <span>→</span></a>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Clinica = () => {
                         </div>
                         <div className="body">
                             <h3>RFAI (método)</h3>
-                            <p>El método vive principalmente en Equilibrar: test, perfiles e intervención cuando corresponde.</p>
+                            <p>Test + perfiles + intervención práctica (cuando corresponde). El método vive principalmente en la clínica.</p>
                             <a className="link" href="https://clinicaequilibrar.cl/#/test-rfai" target="_blank" rel="noreferrer">Hacer el test <span>→</span></a>
                         </div>
                     </div>

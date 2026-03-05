@@ -9,15 +9,16 @@ const Hero = () => {
                 <div className="hero-grid">
                     <div className="hero-copy">
                         <h1>Incidir en lo humano requiere mirar el sistema completo.</h1>
-                        <h2>Psicólogo · Consultor · Fundador de Equilibrar, PRACSIS e IPA</h2>
+                        <h2>Psicólogo · Investigador en problemas complejos · Fundador de 3 empresas</h2>
                         <p>
                             Trabajo desde tres frentes conectados: <strong>clínica (Equilibrar)</strong>, <strong>consultoría para equipos en crisis (PRACSIS)</strong> e
-                            <strong>ingeniería de procesos (IPA)</strong>. La robustez aparece cuando puedes intervenir en los tres niveles sin improvisar.
+                            <strong>ingeniería de procesos (IPA)</strong>. La idea es simple: sostener a las personas, ordenar el trabajo y reducir el costo humano
+                            de la alta exigencia.
                         </p>
 
                         <div className="microproof">
                             <strong style={{ color: 'var(--ink)', fontWeight: 700 }}>Robustez real</strong>
-                            <div>Salud mental, contención en crisis y mejora de flujos de trabajo.</div>
+                            <div>Integración de salud mental, contención en crisis y mejora de flujos de trabajo.</div>
                         </div>
 
                         <div style={{ marginTop: '14px', display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
@@ -27,7 +28,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <div className="hero-media">
+                    <div className="hero-media" aria-label="Fotografía principal">
                         <img src="/assets/img/hero.png" alt="Fotografía web 1" />
                         <div className="overlay"></div>
                     </div>

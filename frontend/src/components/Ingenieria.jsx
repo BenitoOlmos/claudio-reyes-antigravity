@@ -5,12 +5,17 @@ const Ingenieria = () => {
         <section id="ingenieria">
             <div className="container">
                 <h2 className="section-title">IPA Ingeniería — procesos que bajan presión real</h2>
-                <p className="section-sub">Diseño de flujos para recuperar eficiencia sin deshumanizar: menos reprocesos, más claridad, mejor coordinación.</p>
+                <p className="section-sub">
+                    Diseño de flujos para recuperar eficiencia sin deshumanizar: menos reprocesos, más claridad, mejor coordinación.
+                </p>
 
                 <div className="split">
                     <div className="panel">
                         <img src="/assets/img/ipa.png" alt="Fotografía 5 — IPA" />
-                        <div className="content"><strong style={{ color: 'var(--ink)' }}>IPA Ingeniería</strong></div>
+                        <div className="content">
+                            <strong style={{ color: 'var(--ink)' }}>IPA Ingeniería</strong><br />
+                            Roles claros, coordinación y reducción de errores.
+                        </div>
                     </div>
 
                     <div>
