@@ -1,29 +1,31 @@
 import React from 'react';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Ecosistema from './components/Ecosistema';
-import Clinica from './components/Clinica';
-import Pracsis from './components/Pracsis';
-import Ingenieria from './components/Ingenieria';
-import Difusion from './components/Difusion';
-import Podcast from './components/Podcast';
-import Contacto from './components/Contacto';
-import Footer from './components/Footer';
+import Topbar from './components/Shared/Topbar';
+import Footer from './components/Shared/Footer';
+import Home from './pages/Home';
+import BlogIndex from './pages/Blog/BlogIndex';
+import Article1 from './pages/Blog/Article1';
+import Article2 from './pages/Blog/Article2';
+import Article3 from './pages/Blog/Article3';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/Shared/ScrollToTop';
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <Ecosistema />
-      <Clinica />
-      <Pracsis />
-      <Ingenieria />
-      <Difusion />
-      <Podcast />
-      <Contacto />
+    <Router>
+      <ScrollToTop />
+      <Topbar />
+      <main id="top">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<BlogIndex />} />
+          <Route path="/blog/los-cinco-niveles-de-evolucion-de-la-mente" element={<Article1 />} />
+          <Route path="/blog/por-que-repetimos-patrones-emocionales" element={<Article2 />} />
+          <Route path="/blog/cuando-entender-no-basta" element={<Article3 />} />
+        </Routes>
+      </main>
       <Footer />
-    </>
+    </Router>
   );
 }
 
