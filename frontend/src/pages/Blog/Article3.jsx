@@ -8,13 +8,13 @@ const Article3 = () => {
             <section className="hero" style={{ padding: '40px 0 36px' }}>
                 <div className="container">
                     <div className="breadcrumbs" style={{ fontSize: '0.9rem', color: 'var(--muted)', marginBottom: '18px' }}>
-                        <Link to="/" style={{ color: 'var(--primary)' }}>Inicio</Link> / <Link to="/blog" style={{ color: 'var(--primary)' }}>Blog</Link> / Cuando entender no basta para cambiar
+                        <Link to="/" style={{ color: 'var(--primary)' }}>Inicio</Link> / <Link to="/blog" style={{ color: 'var(--primary)' }}>Blog</Link> / Por qué no cambio si ya entendí el error
                     </div>
 
                     <div className="hero-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '38px', alignItems: 'center' }}>
                         <div>
                             <span className="eyebrow" style={{ display: 'inline-block', marginBottom: '14px', fontSize: '0.82rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: '#8d6e63', fontWeight: 700 }}>Psicología · Trauma · Cambio Profundo</span>
-                            <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: 1.08, margin: '0 0 18px', letterSpacing: '-0.03em', maxWidth: '12ch' }}>Cuando entender no basta para cambiar</h1>
+                            <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.5rem)', lineHeight: 1.08, margin: '0 0 18px', letterSpacing: '-0.03em', maxWidth: '12ch' }}>Por qué no cambio si ya entendí el error</h1>
                             <p className="lead" style={{ fontSize: '1.15rem', color: 'var(--muted)', margin: '0 0 26px', maxWidth: '60ch' }}>
                                 Comprender el origen de un patrón puede ser valioso, pero por sí solo rara vez logra modificar una repetición arraigada. Por qué el cambio real exige algo más que reflexión personal.
                             </p>
@@ -29,7 +29,7 @@ const Article3 = () => {
                         </div>
 
                         <div className="hero-card" style={{ background: 'var(--surface)', border: '1px solid var(--line)', borderRadius: '18px', boxShadow: '0 10px 30px rgba(0,0,0,.06)', overflow: 'hidden' }}>
-                            <img src="/assets/img/pracsis.png" style={{ width: '100%', height: '100%', minHeight: '360px', objectFit: 'cover' }} alt="Cuando entender no basta" />
+                            <img src="https://www.origamis.cl/wp-content/uploads/2026/03/FOTOS-WEB.png" style={{ width: '100%', height: '100%', minHeight: '360px', objectFit: 'cover' }} alt="Cuando entender no basta" />
                         </div>
                     </div>
                 </div>

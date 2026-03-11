@@ -25,7 +25,7 @@ const BlogIndex = () => {
                             overflow: 'hidden', boxShadow: 'var(--shadow)', minHeight: '420px', display: 'flex',
                             flexDirection: 'column', justifyContent: 'flex-end', position: 'relative'
                         }}>
-                            <img src="/assets/img/clinica.png" style={{ width: '100%', height: '100%', minHeight: '420px', objectFit: 'cover' }} alt="Claudio Reyes destacado" />
+                            <img src="https://www.origamis.cl/wp-content/uploads/2026/03/Fotografia-3-2.png" style={{ width: '100%', height: '100%', minHeight: '420px', objectFit: 'cover' }} alt="Claudio Reyes destacado" />
                             <div className="hero-card-content" style={{
                                 position: 'absolute', inset: 'auto 0 0 0', padding: '24px',
                                 background: 'linear-gradient(to top, rgba(20, 20, 20, 0.68), rgba(20, 20, 20, 0))', color: '#fff'
@@ -100,7 +100,7 @@ const BlogIndex = () => {
 
                         <article className="post-card" style={{ background: 'var(--surface)', border: '1px solid var(--line)', borderRadius: 'var(--radius)', overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
                             <div className="post-card-image" style={{ aspectRatio: '16/10', overflow: 'hidden', background: '#ecebe5' }}>
-                                <img src="/assets/img/clinica.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Artículo sobre evolución de la mente" />
+                                <img src="https://www.origamis.cl/wp-content/uploads/2026/03/Fotografia-3-2.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Artículo sobre evolución de la mente" />
                             </div>
                             <div className="post-card-content" style={{ padding: '22px' }}>
                                 <span className="tag" style={{ display: 'inline-block', marginBottom: '12px', fontSize: '0.76rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#8d6e63', fontWeight: 700 }}>Psicología · Consciencia</span>
@@ -118,17 +118,17 @@ const BlogIndex = () => {
 
                         <article className="post-card" style={{ background: 'var(--surface)', border: '1px solid var(--line)', borderRadius: 'var(--radius)', overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
                             <div className="post-card-image" style={{ aspectRatio: '16/10', overflow: 'hidden', background: '#ecebe5' }}>
-                                <img src="/assets/img/modelo.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Patrones emocionales repetitivos" />
+                                <img src="https://www.origamis.cl/wp-content/uploads/2026/03/ChatGPT-Image-24-feb-2026-13_44_44.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Patrones emocionales repetitivos" />
                             </div>
                             <div className="post-card-content" style={{ padding: '22px' }}>
                                 <span className="tag" style={{ display: 'inline-block', marginBottom: '12px', fontSize: '0.76rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#8d6e63', fontWeight: 700 }}>Regulación emocional</span>
                                 <h3 style={{ fontSize: '1.2rem', margin: '0 0 10px', lineHeight: 1.2, letterSpacing: '-0.02em' }}>
                                     <Link to="/blog/por-que-repetimos-patrones-emocionales" style={{ color: 'var(--primary)' }}>
-                                        Por qué repetimos patrones emocionales
+                                        Por qué repetimos lo que hicieron nuestros padres
                                     </Link>
                                 </h3>
                                 <p style={{ margin: '0 0 16px', color: 'var(--muted)', fontSize: '1rem' }}>
-                                    Una mirada clínica y neuropsicológica sobre por qué ciertas reacciones, vínculos o malestares parecen volver una y otra vez.
+                                    Una mirada clínica sobre cómo ciertos aprendizajes familiares siguen influyendo en nuestras decisiones, vínculos y respuestas emocionales.
                                 </p>
                                 <Link to="/blog/por-que-repetimos-patrones-emocionales" style={{ color: 'var(--primary)', fontWeight: 600 }}>Leer artículo</Link>
                             </div>
@@ -136,13 +136,13 @@ const BlogIndex = () => {
 
                         <article className="post-card" style={{ background: 'var(--surface)', border: '1px solid var(--line)', borderRadius: 'var(--radius)', overflow: 'hidden', boxShadow: 'var(--shadow)' }}>
                             <div className="post-card-image" style={{ aspectRatio: '16/10', overflow: 'hidden', background: '#ecebe5' }}>
-                                <img src="/assets/img/pracsis.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Comprender no siempre basta para cambiar" />
+                                <img src="https://www.origamis.cl/wp-content/uploads/2026/03/FOTOS-WEB.png" style={{ width: '100%', height: '100%', objectFit: 'cover' }} alt="Comprender no siempre basta para cambiar" />
                             </div>
                             <div className="post-card-content" style={{ padding: '22px' }}>
                                 <span className="tag" style={{ display: 'inline-block', marginBottom: '12px', fontSize: '0.76rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#8d6e63', fontWeight: 700 }}>Cambio profundo</span>
                                 <h3 style={{ fontSize: '1.2rem', margin: '0 0 10px', lineHeight: 1.2, letterSpacing: '-0.02em' }}>
                                     <Link to="/blog/cuando-entender-no-basta" style={{ color: 'var(--primary)' }}>
-                                        Cuando entender no basta para cambiar
+                                        Por qué no cambio si ya entendí el error
                                     </Link>
                                 </h3>
                                 <p style={{ margin: '0 0 16px', color: 'var(--muted)', fontSize: '1rem' }}>

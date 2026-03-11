@@ -29,7 +29,7 @@ const Article1 = () => {
                         </div>
 
                         <div className="hero-card" style={{ background: 'var(--surface)', border: '1px solid var(--line)', borderRadius: '18px', boxShadow: '0 10px 30px rgba(0,0,0,.06)', overflow: 'hidden' }}>
-                            <img src="/assets/img/clinica.png" style={{ width: '100%', height: '100%', minHeight: '360px', objectFit: 'cover' }} alt="Mente evolución" />
+                            <img src="https://www.origamis.cl/wp-content/uploads/2026/03/Fotografia-3-2.png" style={{ width: '100%', height: '100%', minHeight: '360px', objectFit: 'cover' }} alt="Mente evolución" />
                         </div>
                     </div>
                 </div>
