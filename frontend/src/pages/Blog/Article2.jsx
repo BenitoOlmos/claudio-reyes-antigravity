@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ArticleSidebar from './ArticleSidebar';
+import SEO from '../../components/Shared/SEO';
 
 const Article2 = () => {
     return (
         <>
+            <SEO 
+                title="Por qué repetimos lo que hicieron nuestros padres" 
+                description="Una mirada clínica y neuropsicológica sobre por qué ciertas reacciones, estilos vinculares o formas de malestar parecen volver una y otra vez a lo largo de nuestra vida."
+                image="https://www.origamis.cl/wp-content/uploads/2026/03/ChatGPT-Image-24-feb-2026-13_44_44.png"
+                url="/blog/por-que-repetimos-patrones-emocionales"
+            />
             <section className="hero" style={{ padding: '40px 0 36px' }}>
                 <div className="container">
                     <div className="breadcrumbs" style={{ fontSize: '0.9rem', color: 'var(--muted)', marginBottom: '18px' }}>

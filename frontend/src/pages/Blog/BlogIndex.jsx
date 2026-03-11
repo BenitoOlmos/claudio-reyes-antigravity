@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../../components/Shared/SEO';
 
 const BlogIndex = () => {
     return (
         <>
+            <SEO 
+                title="Blog" 
+                description="Artículos sobre regulación emocional, trauma, consciencia, reprogramación mental y formas profundas de transformación psicológica."
+                url="/blog"
+            />
             <section className="hero" style={{ paddingTop: '50px' }}>
                 <div className="container">
                     <div className="hero-grid">

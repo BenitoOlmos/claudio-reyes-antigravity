@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ArticleSidebar from './ArticleSidebar';
+import SEO from '../../components/Shared/SEO';
 
 const Article1 = () => {
     return (
         <>
+            <SEO 
+                title="Los cinco niveles de evolución de la mente humana" 
+                description="Una forma de comprender cómo pasamos de reaccionar automáticamente a vivir con mayor conciencia, regulación y libertad interior."
+                image="https://www.origamis.cl/wp-content/uploads/2026/03/Fotografia-3-2.png"
+                url="/blog/los-cinco-niveles-de-evolucion-de-la-mente"
+            />
             <section className="hero" style={{ padding: '40px 0 36px' }}>
                 <div className="container">
                     <div className="breadcrumbs" style={{ fontSize: '0.9rem', color: 'var(--muted)', marginBottom: '18px' }}>

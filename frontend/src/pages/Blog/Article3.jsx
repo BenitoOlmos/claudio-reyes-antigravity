@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ArticleSidebar from './ArticleSidebar';
+import SEO from '../../components/Shared/SEO';
 
 const Article3 = () => {
     return (
         <>
+            <SEO 
+                title="Por qué no cambio si ya entendí el error" 
+                description="Comprender el origen de un patrón puede ser valioso, pero por sí solo rara vez logra modificar una repetición arraigada. Por qué el cambio real exige algo más."
+                image="https://www.origamis.cl/wp-content/uploads/2026/03/FOTOS-WEB.png"
+                url="/blog/cuando-entender-no-basta"
+            />
             <section className="hero" style={{ padding: '40px 0 36px' }}>
                 <div className="container">
                     <div className="breadcrumbs" style={{ fontSize: '0.9rem', color: 'var(--muted)', marginBottom: '18px' }}>

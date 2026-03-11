@@ -8,24 +8,27 @@ import Article2 from './pages/Blog/Article2';
 import Article3 from './pages/Blog/Article3';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import ScrollToTop from './components/Shared/ScrollToTop';
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <Topbar />
-      <main id="top">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/blog" element={<BlogIndex />} />
-          <Route path="/blog/los-cinco-niveles-de-evolucion-de-la-mente" element={<Article1 />} />
-          <Route path="/blog/por-que-repetimos-patrones-emocionales" element={<Article2 />} />
-          <Route path="/blog/cuando-entender-no-basta" element={<Article3 />} />
-        </Routes>
-      </main>
-      <Footer />
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <ScrollToTop />
+        <Topbar />
+        <main id="top">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/blog" element={<BlogIndex />} />
+            <Route path="/blog/los-cinco-niveles-de-evolucion-de-la-mente" element={<Article1 />} />
+            <Route path="/blog/por-que-repetimos-patrones-emocionales" element={<Article2 />} />
+            <Route path="/blog/cuando-entender-no-basta" element={<Article3 />} />
+          </Routes>
+        </main>
+        <Footer />
+      </Router>
+    </HelmetProvider>
   );
 }
 

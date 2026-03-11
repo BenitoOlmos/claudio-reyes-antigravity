@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/Shared/SEO';
 
 const Home = () => {
   return (
     <>
+      <SEO 
+        title="Inicio" 
+        description="Psicólogo clínico y organizacional. Especialista en Reprogramación Focalizada de Alto Impacto (RFAI), bienestar emocional, trauma y liderazgo."
+        url="/"
+      />
       {/* HERO SECTION */}
       <section className="hero">
         <div className="container">
